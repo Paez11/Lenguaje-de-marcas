@@ -25,13 +25,9 @@ td.comida{
     text-align: start;
     vertical-align: baseline;
 }
-td.abajo{
-    border-bottom: 0;
-}
-td.arriba{
-    border-top: 0;
-}
-td.ambos{
-    border-top: 0;
-    border-bottom: 0;
+
+ul.listas{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
