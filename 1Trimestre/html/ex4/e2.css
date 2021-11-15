@@ -31,3 +31,6 @@ ul.listas{
     padding: 0;
     margin: 0;
 }
+td.ISO{
+    background-color: red;
+}

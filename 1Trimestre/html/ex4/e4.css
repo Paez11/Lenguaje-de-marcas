@@ -6,6 +6,10 @@ table{
     padding-top: 0;
     border-color: grey;
 }
+svg{
+    padding: 0%;
+    margin: 0%;
+}
 td{
     border: solid rgb(124, 124, 124) 1px;
     text-align: center;
