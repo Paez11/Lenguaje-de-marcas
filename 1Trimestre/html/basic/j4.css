@@ -1,9 +1,21 @@
-table.tabla1{
+form.for1{
     border: blue 3px solid;
     background-color: white;
+    box-shadow: 20px;
     margin:auto;
 }
-table.tabla2{
+fieldset{
     border: black 1px solid;
 
+}
+p{
+    vertical-align: 5px;
+}
+legend{
+    color:  blue;
+    font-weight: bold;
+}
+input{
+    margin-bottom: 10px;
+    margin-left: 20px;
 }
