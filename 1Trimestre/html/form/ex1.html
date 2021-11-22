@@ -4,49 +4,115 @@
         <meta charset="UTF-8">
         <title> Formulario 1 </title>
     </head>
+    <link href="x1.css" rel="stylesheet" href="x1.css">
     <body>
-        <table>
-            <tr>
-                <td> Title: </td>
-                <td> Short Title: </td>
-                <td> Subj.: </td>
-                <td> Num.: </td>
-                <td> Section: </td>
-                <td> Year: </td>
-            </tr>
-            <tr>
-                <td> <input type="text"> </td>
-                <td> <input type="text"> </td>
-                <td> <input type="text"> </td>
-                <td> <input type="number"> </td>
-                <td> <input type="number"> </td>
-                <td> <input type="number"> </td>
-                <td> Class <br> Meetings/Week: <br> <input type="number"> 
-                    
-                </td>
-                <td> Keywords: 
-                    <input type="checkbox"> <label> Science for non-majors </label>
-                    <input type="checkbox"> <label> Find arts for non-majors </label>
-                    <input type="checkbox"> <label> Lab science course </label>
-                    <input type="checkbox"> <label> Artistic practise </label>
-                    <input type="checkbox"> <label> Foreign language/culture taught in English </label>
-                    <input type="checkbox"> <label> Community based learning </label>
-                    <input type="checkbox"> <label> Writting attentive </label> 
-                    <input type="checkbox"> <label> Writting intensive </label>
-                </td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td> </td>
-                <td> Num.: </td>
-                <td> Rationale: </td>
-            </tr>
-            <tr>
-                <td> <input type="checkbox"> </td>
-                <td> <input type="number"> </td>
-                <td> <input type="text"> </td>
-            </tr>
-        </table>
+        <form>
+            <table>
+                <tr>
+                    <td> Title: </td>
+                    <td> Short Title: </td>
+                    <td> Subj.: </td>
+                    <td> Num.: </td>
+                    <td> Section: </td>
+                    <td> Year: </td>
+                </tr>
+                <tr>
+                    <td> <input type="text"> </td>
+                    <td> <input type="text"> </td>
+                    <td> <input type="text"> </td>
+                    <td> <input type="number"> </td>
+                    <td> <input type="number"> </td>
+                    <td> <input type="number"> </td>
+                </tr>
+            </table>
+            <table class="medio">
+                <tr>
+                    <td colspan="7" rowspan="1"> 
+                        <input type="checkbox"> <label> Enrollment <br> limit </label>
+                        <label> Num.: </label> <input type="number"> 
+                        <label> Rationale: </label> <input type="text"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="7" rowspan="1"> 
+                        <input type="checkbox"> <label> Consent <br> required </label> 
+                        <label> Rationale: </label> <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="7" rowspan="1"> 
+                        <input type="checkbox"> <label> Limit class <br> level </label> 
+                        <label> Code: </label> <input type="text"> 
+                        <label> Rationale: </label> <input type="text"> <label> How to gandle over-enrollment: </label> <input type="text"> 
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="7" rowspan="4"> 
+                        <input type="checkbox"> <label> Prerequisite </label> 
+                        <label> Rationale: </label> <input type="text">
+                        <label> Requiered Prereqs. (major, course): </label> <input type="text">
+                        <label> Requiered Prereqs.: </label> <input type="text">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="9"> 
+                        Class <br> Meetings/Week: <br> <input type="number">
+                        <br>
+                        Class Hours/Week: <br> <input type="number">
+                        <br> 
+                        Semester(s) Offered: <br> <select> <option> - None - </option> </select>
+                        <br>
+                        <input type="checkbox"> <label> Incl. Semester in prereqs. </label>
+                        <br>
+                        <input type="checkbox"> <label> Offered only once </label>
+                        <br>
+                        <input type="checkbox"> <label> Incl. in printed catalog </label>
+                    </td>
+                    <td colspan="2" rowspan="9"> 
+                        Keywords:
+                        <br> 
+                        <input type="checkbox"> <label> Science for non-majors </label>
+                        <br>
+                        <input type="checkbox"> <label> Find arts for non-majors </label>
+                        <br>
+                        <input type="checkbox"> <label> Lab science course </label>
+                        <br>
+                        <input type="checkbox"> <label> Artistic practise </label>
+                        <br>
+                        <input type="checkbox"> <label> Foreign language/culture taught in English </label>
+                        <br>
+                        <input type="checkbox"> <label> Community based learning </label>
+                        <br>
+                        <input type="checkbox"> <label> Writting attentive </label> 
+                        <br>
+                        <input type="checkbox"> <label> Writting intensive </label>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td> Approvals: </td>
+                    <td> Date: </td>
+                    <td> Comment: </td>
+                </tr>
+                <tr> 
+                    <td> <input type="checkbox"> <label> CEP </label> </td> 
+                    <td> <input type="text"> </td>
+                    <td> <input type="text"> </td>
+                </tr>
+                <tr> 
+                    <td> <input type="checkbox"> <label> Committee of Six </label> </td>
+                    <td> <input type="text"> </td>
+                    <td> <input type="text"> </td> 
+                </tr>
+                <tr> 
+                    <td> <input type="checkbox"> <label> Faculty </label> </td>
+                    <td> <input type="text"> </td>
+                    <td> <input type="text"> </td> 
+                </tr>
+            </table>
+        </form>
     </body>
 </html>
