@@ -1,13 +1,12 @@
 td:first-child{
     background-color: green;
 }
-#amarillo{
+
+td[colspan="5"]{
     background-color: yellow;
     text-align: center;
-    font-weight: bold;
 }
-
-#viernes:hover{
+tr>:last-of-type:hover{
     font-size: 50px;
 }
 
@@ -23,6 +22,7 @@ th::first-letter{
     padding: 5px;
     margin-left: 5px;
 }
+
 label::after{
     content: "*";
     color: red ;
