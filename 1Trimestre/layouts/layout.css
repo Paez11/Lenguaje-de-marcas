@@ -1,8 +1,22 @@
+h1::after{
+    content: '';
+    width: 1006px;
+    height: 852px;
+    background-image: radial-gradient(ellipse at center, rgb(255 255 255) 0%,rgb(255 255 255 / 0%) 70%,rgb(255 255 255 / 23%) 100%);
+    display: block;
+    border-radius: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -499px;
+}
+
+
 #text{
     font-family: BioRhyme, serif;
     font-size: 140px;
     font-weight: 500;
-    color: rgba(140, 133, 133, 1);
+    color: #707070;
     text-transform: none;
     font-style: normal;
     text-decoration: none;
@@ -41,11 +55,13 @@ div>::first-line{
     /* Border */
     border: 1px solid rgba(0, 0, 0, 0.3);
     background-color: white;
+    padding: inherit;
 }
 td{
     padding: 12px;
     padding-right: 60px;
     padding-left: 40px;
+    font-size:large;
 }
 
 
@@ -59,7 +75,7 @@ a:link{color: black;}
 }
 
 .container {
-    padding-left: 240px;
+    justify-content: center;
     display: flex;
 }
 
@@ -76,11 +92,22 @@ a:link{color: black;}
 .container__content {
     /* Take available height */
     flex: 1;
+    padding-top: 20px;
+    text-align:justify;
+    text-indent: 50px;
+    margin: 8px;
 }
+
+p:last-of-type{
+    text-align: right;
+}
+
 img{
     padding-bottom: 20px;
 }
-
+img:first-of-type{
+    padding-bottom: 0%;
+}
 
 
 
@@ -89,7 +116,6 @@ img{
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 
     /* Take full size */
     height: 100vh;
@@ -97,8 +123,7 @@ img{
 
     /* Background */
     background: url('/assets/full-background.jpeg') center center / cover no-repeat;
-    background-color: rgb(211, 193, 193);
-    padding-bottom: 500px;
-    padding-top: 270px;
+    background-color: #ADA6A0;
     margin: auto;
+    padding-bottom: 200px;
 }
