@@ -94,6 +94,7 @@ span{
 }
 li{
     margin-bottom: 8px;
+    list-style-type: none;
 }
 
 #arbol{
