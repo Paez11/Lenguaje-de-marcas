@@ -72,6 +72,6 @@ Ejercicios, exámenes y pruebas realizadas durante el primer curso de ciclo supe
 
 > Ha sido de gran ayuda _W3 School_ -------------> [W3 School](https://www.w3schools.com/html/default.asp)
 
-> También el repositorio de pekechis en _GitHub_ -------------> [Repositorio](https://github.com/pekechis/OpenWebinars_Introduccion_HTML_CSS)
+> También el repositorio de pekechis en _GitHub_ -------------> [Repositorio](https://github.com/pekechis/OpenWebinars_Introduccion_HTML_CSS)hola.
 
 ***
