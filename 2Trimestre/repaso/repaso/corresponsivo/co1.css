@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+}
+.todo{
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "cabecera"
+    "cuerpo"
+    "pie";
+}
+.cabecera{
+    grid-area: cabecera;
+    background-color: rgb(3, 11, 83);
+    color: white;
+}
+.menu{
+    justify-content: center;
+}
+#titulo{
+    font-family: ABeeZee, sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 0%;
+}
+#navegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#opcion{
+    padding: 2%;
+    font-family: ABeeZee, sans-serif;
+    font-size: 140%;
+    font-weight: 300;
+    color: rgba(0, 242, 255, 1);
+    text-transform: none;
+}
+.seleccionado{
+    background-color: rgb(12, 170, 170);
+}
