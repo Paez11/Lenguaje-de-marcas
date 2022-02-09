@@ -1,5 +1,6 @@
 body{
     width: 100%;
+    margin: 0%;
 }
 .todo{
     display: grid;
@@ -13,10 +14,23 @@ body{
     grid-area: cabecera;
     background-color: rgb(3, 11, 83);
     color: white;
+    box-shadow: 0em 0.5em 3em black;
 }
 .menu{
     justify-content: center;
 }
+#noticia{
+    font-size: x-large;
+}
+#titNoticia{
+    font-family: sans-serif;
+    margin: 3%;
+}
+h2{
+    margin: 0%;
+    margin-bottom: 1%;
+}
+
 #titulo{
     font-family: ABeeZee, sans-serif;
     font-size: 200%;
@@ -42,4 +56,90 @@ body{
 }
 .seleccionado{
     background-color: rgb(12, 170, 170);
+}
+#informacion{
+    margin: 3%;
+    color: #3fd0ff;
+}
+#imagen{
+    box-shadow: 0px 0px;
+}
+.posicion{
+    text-align-last: right;
+    position: relative;
+    overflow: hidden;
+    height: 3%;
+}
+.fila1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+h3{
+    font-family: ABeeZee, sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    color: rgba(61, 61, 61, 1);
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 0em;
+    letter-spacing: -2px;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+.texto{
+    color: rgb(99, 99, 99);
+    font-size: x-large;
+}
+#leer{
+    text-align-last: end;
+    margin: 2%;
+}
+hr{
+    margin: 5%;
+}
+button{
+    border-radius: 38%;
+    background-color: rgb(231, 231, 231);
+    padding: 0.6em;
+}
+.fila2{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    box-shadow: 0px 2px 9px;
+}
+#logo{
+
+}
+#pajaro{
+    width: 15%;
+    box-shadow: 0px 0px;
+}
+.pie{
+    background-color: #161676;
+    color: #3fd0ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#subnavegador{
+    display: flex;
+    flex-direction: row;
+}
+#opcion1{
+    padding: 2%;
+    font-family: ABeeZee, sans-serif;
+    font-size: 140%;
+    font-weight: 300;
+    color: rgba(0, 242, 255, 1);
+    text-transform: none;
+}
+#tweets{
+    border-radius: 10%;
+    color: black;
+    padding: 3%;
 }
