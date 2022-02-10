@@ -74,7 +74,7 @@ h2{
     padding: 0 10px;
 }
 .posicion{
-    text-align-last: right;
+    text-align-last: center;
     position: relative;
     overflow: hidden;
     height: 3%;
@@ -245,8 +245,15 @@ img{
         margin-top: 1px;
     }
     .posicion{
-        height: 2%;
+        height: 4%;
+        position: relative;
+        padding-bottom: 1%;
     }
+    #svg{
+        position: absolute;
+        right: 160px;
+    }
+    
     .fila1{
         display: flex;
         flex-direction: row;
@@ -272,6 +279,7 @@ img{
 
     .fila3{
         justify-content: center;
+        padding-bottom: 6%;
     }
     #logo{
         flex: 0 0 13%;
